@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 99vw;
+    height: 99vh;
+    border: 4px solid black;
+
+    & .box {
+        background-color: aqua;
+        border: 2px solid black;
+    }
+}
+
